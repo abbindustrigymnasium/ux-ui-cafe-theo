@@ -3,7 +3,7 @@
 <template>
     <nav>
         <div id="logo">
-            <img src="icons/logo.svg">
+            <img src="icons/logo_compressed.svg">
         </div>
         <ul id="nav-options">
             <li>
