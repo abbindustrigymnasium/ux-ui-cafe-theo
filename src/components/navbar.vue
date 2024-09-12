@@ -2,9 +2,7 @@
 </script>
 <template>
     <nav>
-        <div id="logo">
-            <img src="icons/logo_compressed.svg">
-        </div>
+        <img id="logo" src="icons/logo_compressed.svg">
         <ul id="nav-options">
             <li>
                 <a class="nav-link" href="">Upcoming Events</a>
@@ -40,5 +38,6 @@
         text-decoration: none;
         margin-left: 1em;
     }
+
 
 </style>
