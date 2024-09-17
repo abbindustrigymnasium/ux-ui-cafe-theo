@@ -1,20 +1,21 @@
 <script setup>
+    let logo = import("../../public/icons/logo_compressed.svg")
 </script>
 <template>
     <nav>
         <img id="logo" src="icons/logo_compressed.svg">
         <ul id="nav-options">
             <li>
-                <a class="nav-link" href="">Upcoming Events</a>
+                <a class="nav-link" href="/upcoming">Upcoming Events</a>
             </li>
             <li>
-                <a class="nav-link" href="">Cakes</a>
+                <a class="nav-link" href="/cakes">Cakes</a>
             </li>
             <li>
-                <a class="nav-link" href="">Personel</a>
+                <a class="nav-link" href="/staff/">Personel</a>
             </li>
             <li>
-                <a class="nav-link" href="">Our Philosophy</a>
+                <a class="nav-link" href="/philosophy">Our Philosophy</a>
             </li>
 
         </ul>
@@ -22,11 +23,13 @@
 </template>
 
 <style>
+    /* @import url("src/css/quasar.variables.scss"); */
     nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: rgb(91, 21, 21);
+        /* background-color: rgb(91, 21, 21); */
+        background-color: #4F4545;
         padding-inline: 20%;
     }
     #nav-options{
