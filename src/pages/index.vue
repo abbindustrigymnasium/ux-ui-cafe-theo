@@ -2,5 +2,5 @@
 </script>
 
 <template>
-    <p>This is not working</p>
+    <p>This is working!</p>
 </template>
