@@ -6,7 +6,7 @@
         <img id="logo" src="icons/logo_compressed.svg">
         <ul id="nav-options">
             <li>
-                <a class="nav-link" href="/upcoming">Upcoming Events</a>
+                <a class="nav-link" href="/events">Upcoming Events</a>
             </li>
             <li>
                 <a class="nav-link" href="/cakes">Cakes</a>
@@ -22,14 +22,14 @@
     </nav>
 </template>
 
-<style>
-    /* @import url("src/css/quasar.variables.scss"); */
+<style lang="scss" scoped>
+    @import "src/css/quasar.variables.scss";
     nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
         /* background-color: rgb(91, 21, 21); */
-        background-color: #4F4545;
+        background-color: $color-background-1;
         padding-inline: 20%;
     }
     #nav-options{
