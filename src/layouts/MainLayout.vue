@@ -16,6 +16,9 @@ defineOptions({
 
 <style lang="scss">
     @import "src/css/quasar.variables.scss";
+    body{
+      background-color:$color-background-0 ;
+    }
     h1 {
         font-size: $size-title;
         font-family: $font-title, serif;
