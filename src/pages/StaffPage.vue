@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 import { api } from 'src/boot/axios'
 import { onMounted } from 'vue';
-import personel_card from 'src/components/personel_card.vue';
+import Personel_card from 'src/components/Personel_card.vue';
 
 const staff = ref([
     {"name": "Jimmy", "desc": "Humpty dumpty had a great fall, he hurt his knees and had to amputate"},
@@ -26,22 +26,27 @@ onMounted(async () => {
     <div id="wrapper">
         <h3 id="page_title">Our Staff</h3>
         <div id="employees">
-            <personel_card v-for="employee in staff" class="employee_card" :employee_name="employee.name" :employee_desc="employee.desc"></personel_card>
+            <Personel_card v-for="employee in staff" class="employee_card" :employee_name="employee.name" :employee_desc="employee.desc"></Personel_card>
         </div>
     </div>
 </template>
 
 
-<style>
+<style lang="scss" scoped>
+@import "/src/css/quasar.variables.scss";
 #wrapper{
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    padding-inline: clamp(60px, 12vw, 1000px);
+    // padding-inline: clamp(60px, 12vw, 1000px);
+    padding-inline: clamp(20px, 20%, 1000px);
+    background-color: $color-background-0;
+    
 }
 #page_title {
     width: fit-content;
+    color: $color-foreground-0;
 }
 
 #employees{

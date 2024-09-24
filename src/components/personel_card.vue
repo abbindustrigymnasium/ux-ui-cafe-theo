@@ -9,9 +9,11 @@ import { stringify } from 'postcss';
 
 <template>
     <div id="card">
-        <img src="/public/icons/logo_compressed.svg" alt="" class="employee_img">
-        <h5 class="employee-name">{{employee_name}}</h5>
-        <p class="employee-desc">{{employee_desc}}</p>
+        <img src="/public/icons/user-astronaut.svg" alt="" class="employee_img">
+        <div class="employee-text">
+            <h5 class="employee-name">{{employee_name}}</h5>
+            <p class="employee-desc">{{employee_desc}}</p>
+        </div>
     </div>
 </template>
 
@@ -20,13 +22,18 @@ import { stringify } from 'postcss';
     #card{
         display: flex;
         flex-direction: column;
-        justify-content: start;
+        justify-content: space-evenly;
+        flex-grow: 10;
         gap: 10px 0;
         background-color: $color-background-1;
         height: 300px;
-        width: clamp(200px, 20vw, 250px);
-        border-radius: 30px;
-        padding-inline: 5px;
+        width: clamp(175px, 20vw, 250px);
+        // min-width: 200px;
+        // max-width: 500px;
+        // width: 20%;
+        border-radius: 10px;
+        padding-inline: clamp(5px, 20px, 20%);
+        padding-top: 5px;
     }
     h5{
         margin: 0;
@@ -34,6 +41,7 @@ import { stringify } from 'postcss';
     .employee_img{
         height: 40%;
         max-width: 100%;
+        color: $color-foreground-0;
     }
     .employee-name,
     .employee-desc{

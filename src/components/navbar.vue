@@ -29,7 +29,7 @@
         justify-content: space-between;
         align-items: center;
         /* background-color: rgb(91, 21, 21); */
-        background-color: $color-background-1;
+        background-color: $color-background-0;
         padding-inline: 20%;
     }
     #nav-options{
