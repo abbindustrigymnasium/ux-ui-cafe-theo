@@ -12,7 +12,7 @@
                 <a class="nav-link" href="/cakes">Cakes</a>
             </li>
             <li>
-                <a class="nav-link" href="/staff/">Personel</a>
+                <a class="nav-link" href="/staff">Personel</a>
             </li>
             <li>
                 <a class="nav-link" href="/philosophy">Our Philosophy</a>

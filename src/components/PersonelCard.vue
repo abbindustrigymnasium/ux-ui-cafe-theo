@@ -23,16 +23,12 @@ import { stringify } from 'postcss';
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        flex-grow: 10;
         gap: 10px 0;
         background-color: $color-background-1;
         height: 300px;
-        width: clamp(175px, 20vw, 250px);
-        // min-width: 200px;
-        // max-width: 500px;
-        // width: 20%;
+        width: clamp(175px, 18vw, 250px);
+        // max-width: 30%;
         border-radius: 10px;
-        padding-inline: clamp(5px, 20px, 20%);
         padding-top: 5px;
     }
     h5{

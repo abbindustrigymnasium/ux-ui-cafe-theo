@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 import { api } from 'src/boot/axios'
 import { onMounted } from 'vue';
-import Personel_card from 'src/components/Personel_card.vue';
+import Personel_card from 'src/components/PersonelCard.vue';
 
 const staff = ref([
     {"name": "Jimmy", "desc": "Humpty dumpty had a great fall, he hurt his knees and had to amputate"},
@@ -24,9 +24,11 @@ onMounted(async () => {
 
 <template>
     <div id="wrapper">
-        <h3 id="page_title">Our Staff</h3>
-        <div id="employees">
-            <Personel_card v-for="employee in staff" class="employee_card" :employee_name="employee.name" :employee_desc="employee.desc"></Personel_card>
+        <h3 id="page_title">The People Who Work Here</h3>
+        <div class="employee_wrapper">
+            <div id="employees">
+                <Personel_card v-for="employee in staff" class="employee_card" :employee_name="employee.name" :employee_desc="employee.desc"></Personel_card>
+            </div>
         </div>
     </div>
 </template>
@@ -37,10 +39,9 @@ onMounted(async () => {
 #wrapper{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
-    // padding-inline: clamp(60px, 12vw, 1000px);
     padding-inline: clamp(20px, 20%, 1000px);
+    padding-bottom: 50px;
     background-color: $color-background-0;
     
 }
@@ -48,18 +49,26 @@ onMounted(async () => {
     width: fit-content;
     color: $color-foreground-0;
 }
+.employee-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 #employees{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
     gap:  50px 30px;
 
 }
-/* .employee_card{
-    margin-inline: 5%;
-    margin-bottom: 5%; 
-} 
-*/
+#employees::after{
+    content: "";
+    width: clamp(175px, 18vw, 250px);
+}
+
 
 </style>
