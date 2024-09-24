@@ -1,9 +1,6 @@
-<script setup>
-    let logo = import("../../public/icons/logo_compressed.svg")
-</script>
 <template>
     <nav>
-        <img id="logo" src="icons/logo_compressed.svg">
+        <img id="logo" src="/icons/logo_compressed.svg" href="/">
         <ul id="nav-options">
             <li>
                 <a class="nav-link" href="/events">Upcoming Events</a>
