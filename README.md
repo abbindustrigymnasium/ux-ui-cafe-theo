@@ -21,4 +21,3 @@ This project is licensed under the MIT License, for the full terms of the licens
 
 ### Attribution
 For the licenses of third-party assets included in this project, see the [ATTRIBUTION-file](./ATTRIBUTION.md) present in the top-level of this repository.
-
