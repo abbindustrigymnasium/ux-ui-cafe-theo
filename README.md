@@ -13,7 +13,7 @@ The implementation is currently under development and not fit for deployment.
 Figma is a design tool.
 
 ### Quasar 
-Quasar is a vue framework with pre-made components with the purpose of making implementation quicker.
+Quasar is a Vue framework with pre-made components with the purpose of making implementation quicker.
 
 ## License
 ### Our License
