@@ -27,6 +27,7 @@ import { stringify } from 'postcss';
         background-color: $color-background-1;
         height: 300px;
         width: clamp(175px, 18vw, 250px);
+        padding-inline: 10px;
         // max-width: 30%;
         border-radius: 10px;
         padding-top: 5px;
@@ -42,5 +43,6 @@ import { stringify } from 'postcss';
     .employee-name,
     .employee-desc{
         color: $color-foreground-0;
+        
     }
 </style>

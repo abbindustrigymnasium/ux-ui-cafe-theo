@@ -1,6 +1,8 @@
 <template>
     <nav>
-        <img id="logo" src="/icons/logo_compressed.svg" href="/">
+        <a href="/">
+            <img id="logo" src="/icons/logo_compressed.svg" href="/">
+        </a>
         <ul id="nav-options">
             <li>
                 <a class="nav-link" href="/events">Upcoming Events</a>
