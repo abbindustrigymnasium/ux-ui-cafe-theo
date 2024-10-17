@@ -1,6 +1,6 @@
 # Style Guide
 
-https://www.figma.com/design/dO6Zdu5MUOWGqAAmgMJ8Sz/Sitemap?node-id=0-1&t=hcvMHs4tfSB4OX6Q-1
+[https://www.figma.com/design/dO6Zdu5MUOWGqAAmgMJ8Sz/Sitemap?node-id=0-1&t=hcvMHs4tfSB4OX6Q-1](https://www.figma.com/design/dO6Zdu5MUOWGqAAmgMJ8Sz/Sitemap?node-id=0-1&node-type=canvas)
 
 ### Colors
 
