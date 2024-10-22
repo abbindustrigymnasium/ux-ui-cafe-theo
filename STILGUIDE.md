@@ -52,3 +52,20 @@ Every page must have a navbar that is locked to the top of the screen, a foooter
 
 **Shape**: The cards must be rectangular,placed verticaly to allow more cards to be next to each other. Side-image must be rectangular, placed vertically. Background image and carousel images must be placed horizontaly. These primitives allow for easy adaptation of content in a responsive design, where a pleothora of viewports must be supported, which may become a future goal after further development of the main product.
 
+### Logo
+
+The following logo must be used for the navbar (134x38 pixels):
+
+![Logo1](https://raw.githubusercontent.com/abbindustrigymnasium/ux-ui-cafe-theo/refs/heads/main/Logo1.png)
+
+For anything else (33x33 pixles):
+
+![Logo1](https://raw.githubusercontent.com/abbindustrigymnasium/ux-ui-cafe-theo/refs/heads/main/Logo2.png)
+
+
+
+
+
+
+
+
